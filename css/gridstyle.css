@@ -1,0 +1,43 @@
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h3{
+    font-size: 120%;
+
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+p.sub{
+    margin-top: 0;
+    font-size: 80%;
+}
+div.title{
+    margin: 5px;
+    margin-left: 0px;
+    padding: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: solid pink 5px;
+}
+index{
+    margin: 100px
+}
+div.img_main{
+    margin: 19.2px;
+    width: 200%;
+}
+@media(max-width: 500px){
+    div.img_main{
+        display: block;
+    }
+    #grid{
+        display:block;
+    }
+}
